@@ -7,5 +7,7 @@
         public string Descripcion { get; set; }
         public string Modelo { get; set;}
         public float Precio { get; set;}
+        public int ProvedorId { get; set; }
+        //public Provedor Provedor { get; set; }
     }
 }
